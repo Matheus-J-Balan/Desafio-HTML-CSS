@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+#barra{
+    width: 250px;
+    height: 100vh;
+    border-right: 2px solid black;
+    flex-direction: column;
+}
+
+.nomes{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+    cursor: pointer;
+}
